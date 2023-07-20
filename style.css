@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B');
+
+* {
+     font-family: 'Poppins';
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+#logo {
+     font-size: 25px;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     cursor: pointer;
+}
+nav a {
+     color: #fff;
+     text-decoration: none;
+     transition: 0.3s;
+}
+nav h3 {
+     color: #fff;
+     text-decoration: none;
+     transition: 0.3s;
+}
+a:hover {
+     opacity: 0.7;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     color: black;
+     border-radius: 9px;
+}
+nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background: #262A2E;
+     height: 8vh;
+}
+.nav-list {
+     list-style: none;
+     display: flex;
+}
+.nav-list li {
+     letter-spacing: 3px;
+     margin-left: 4rem;
+}
+.cards {
+     background-color: #f6f9ff;
+     height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #434343;
+     border: 1px solid red;
+}
+main.cards {
+     display: flex;
+     flex-direction: row;
+     padding: 32px;
+}
+main.cards section.card {
+     border: 1px solid;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-color: white;
+     padding: 1rem 1.5rem;
+     border-radius: 8px;
+     height: 600px;
+     width: 40%;
+     max-height: 286px;
+     margin-left: 32px;
+}
+main.cards section.card .icon {
+     width: 54px;
+     height: 54px;
+}
+main.cards section.card img {
+     width: 100%;
+}
+main.cards section.card h3 {
+     margin: 16px 0;
+}
+main.cards section.card span {
+     font-weight: 500;
+     max-width: 440px;
+     font-size: 90%;
+     margin-bottom: 16px;
+}
+main.cards section.card button {
+     padding: 0.5rem 1rem;
+     text-transform: uppercase;
+     border-radius: 32px;
+     border: 0;
+     cursor: pointer;
+     font-size: 80%;
+     font-weight: 500;
+     width: 200px;
+     color: whitesmoke;
+     background-color: #434343;
+}
+main.cards section.card button:hover {
+     background-color: #555555;
+     transform: scale(1.03);
+}
+footer {
+     position: absolute;
+     bottom: 0;
+     background: #262A2E;
+     width: auto;
+     padding-top: 20px;
+     color: #fff;
+}
+.footer-bottom {
+     width: 100vw;
+     text-align: center;
+}
+.footer-bottom p {
+     font-size: 14px;
+     word-spacing: 2px;
+     margin-bottom: 1rem;
+     text-transform: capitalize;
+}
